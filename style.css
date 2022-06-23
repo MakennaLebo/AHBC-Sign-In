@@ -1,0 +1,40 @@
+body{
+    background-color:rgb(233, 90, 145);
+}
+
+#sign-in-box{
+    background-color:rgba(255, 255, 255, 0.89);
+    margin: 200px 305px;
+    width: 500px;
+    
+}
+
+.btn{
+    background-color: rgb(76, 138, 230);
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    color: rgb(76, 138, 230);
+}
+
+h1{
+    text-align: center;
+}
+
+#checkbox{
+    display: inline;
+}
+
+#Username{
+    display:flex;
+    justify-content: center;
+    height: 40px;
+    padding:10px; 
+}
+
+#btn{
+    display: block;
+    margin: 0 auto;
+}
