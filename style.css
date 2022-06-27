@@ -1,10 +1,12 @@
 body{
     background-color:rgb(233, 90, 145);
+    display: flex;
+    justify-content: center;
 }
 
 #sign-in-box{
     background-color:rgba(255, 255, 255, 0.89);
-    margin: 200px 305px;
+    margin: 300px 405px;
     width: 500px;
     
 }
@@ -27,11 +29,16 @@ h1{
     display: inline;
 }
 
-#Username{
+#username{
     display:flex;
     justify-content: center;
     height: 40px;
     padding:10px; 
+    width: 100%;
+}
+
+#username input{
+    width: 60%;
 }
 
 #btn{
